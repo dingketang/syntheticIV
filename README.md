@@ -3,13 +3,13 @@ the code and package for paper ''The synthetic instrument: From sparse associati
 
 
 ## Download
-The package can be downloaded in R
+The package can be downloaded in R with
 ```
 devtools::install_github("dingketang/syntheticIV")
 ```
 
 ## Example
-Here is a basic example illustrating the usage of the package
+Here is a basic example illustrating the usage of the package.
 
 
 ### Geneate data
