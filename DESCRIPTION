@@ -7,5 +7,5 @@ Maintainer: Dingke Tang <dingke.tang@mail.utoronto.ca>
 Description: the code and package for the paper: The synthetic instrument: From sparse association to sparse causation.
 License: 
 Encoding: UTF-8
-Inports: MASS, abess, caret, leaps
+Imports: MASS, abess, caret, leaps
 LazyData: true
