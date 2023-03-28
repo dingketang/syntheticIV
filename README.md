@@ -24,8 +24,8 @@ gamma = matrix(runif(q,max = 1,min = -1))       # gamma matrix
 beta  = matrix(rep(0,p))
 beta[1:s] = 1
 U = matrix(rnorm(n*q),nrow = n)
-X = U\%*\%t(L) + matrix(rnorm(n*p,sd = 2),nrow = n)
-Y = X\%*\%beta + U\%*\%gamma + rnorm(n)*1
+X = U%*%t(L) + matrix(rnorm(n*p,sd = 2),nrow = n)
+Y = X%*%beta + U%*%gamma + rnorm(n)*1
 ```
 
 ### Call function
