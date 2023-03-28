@@ -1,7 +1,7 @@
-if(!require("MASS")) install.packages("MASS")
-if(!require("abess")) install.packages("abess")
-if(!require("caret")) install.packages("caret")
-if(!require("leaps")) install.packages("leaps")
+#if(!require("MASS")) install.packages("MASS")
+#if(!require("abess")) install.packages("abess")
+#if(!require("caret")) install.packages("caret")
+#if(!require("leaps")) install.packages("leaps")
 
 #library(MASS)
 #library(abess)
