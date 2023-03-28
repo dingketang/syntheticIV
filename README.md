@@ -1,5 +1,5 @@
 # syntheticIV
-the code and package for paper ''The synthetic instrument: From sparse association to sparse causation''
+The code and package for paper ''The synthetic instrument: From sparse association to sparse causation''.
 
 
 ## Download
