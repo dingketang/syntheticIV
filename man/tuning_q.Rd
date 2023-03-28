@@ -2,33 +2,26 @@
 \alias{Tuning_q}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  find the number of latent confounder
+the default method in SIV package to estimate number of latent confounder
 }
 \description{
-%%   onatski(2009)'s method estimate number of latent confounder#
-%%   return the number of latent confounder
+   onatski(2009)'s method estimate number of latent confounder
 }
 \usage{
 Tuning_q(X)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{X}{
-     the n*p design matrix X  with n samples and p variable
-}
+  \item{X}{the n*p design matrix X  with n samples and p variable}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+   return the number of latent confounder
 }
 \references{
-%% ~put references to the literature/web site here ~
+Testing Hypotheses About the Number of Factors in Large Factor Models
 }
 \author{
 Dingke Tang
@@ -45,8 +38,13 @@ dingke.tang@mail.utoronto.ca
 }
 \examples{
 
-
-
+p = 100
+q = 2
+n = 500
+set.seed(20221224)
+L = matrix(runif(p*q,max = 1,min = -1),nrow = p)# loading matrix
+X = U\%*\%t(L) + matrix(rnorm(n*p,sd = 2),nrow = n)
+Tuning_q(X)
 
 %##---- Should be DIRECTLY executable !! ----
 %##-- ==>  Define data, use random,
@@ -66,3 +64,4 @@ dingke.tang@mail.utoronto.ca
 % \concept{ ~cpt1 }
 % \concept{ ~cpt2 }
 % Use only one concept per line.
+}

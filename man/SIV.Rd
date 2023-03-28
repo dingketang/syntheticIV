@@ -57,5 +57,4 @@ X = U\%*\%t(L) + matrix(rnorm(n*p,sd = 2),nrow = n)
 Y = X\%*\%beta + U\%*\%gamma + rnorm(n)*1
 SIVfit <- SIV(X,Y)
 SIVfit$beta
-
 }
