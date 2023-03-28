@@ -4,8 +4,8 @@ Title: Estimate causal effect with unmeasure latent confounder
 Version: 0.1.0
 Author: Dingke Tang
 Maintainer: Dingke Tang <dingke.tang@mail.utoronto.ca>
-Description:the code and package for the paper: The synthetic instrument: From sparse association to sparse causation.
+Description: the code and package for the paper: The synthetic instrument: From sparse association to sparse causation.
 License: 
 Encoding: UTF-8
-Inport: MASS, abess, caret, leaps
+Inports: MASS, abess, caret, leaps
 LazyData: true
