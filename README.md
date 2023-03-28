@@ -30,6 +30,6 @@ Y = X%*%beta + U%*%gamma + rnorm(n)*1
 
 ### Call function
 ```
-SIVfit <- SIV(X,Y)
+SIVfit <- syntheticIV::SIV(X,Y)
 SIVfit$beta
 ```
